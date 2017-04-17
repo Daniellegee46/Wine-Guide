@@ -1,0 +1,326 @@
+body {
+	font-family:Verdana, Arial, sans-serif;
+	padding-top:20px;
+}
+#bg{
+	background-image:url(background.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#wrapper { 		
+	background-color:#FFFFCC;
+    width: 85%;
+	margin-left: auto;
+	margin-right:auto;
+	box-shadow:10px 10px 10px #333333;
+}  
+header { 
+	background-color:#FFFFCC;
+}
+h1{
+	font-family:papyrus,Arial,serif;
+	font-weight:bold;
+	text-shadow:5px 5px 5px #FFFFCC;
+	text-indent:480px;
+	background-image:url(winebanner2.png);
+	background-size:100% 336px;
+	background-position:center;
+	background-repeat: no-repeat;
+    color:#990033; 	
+    font-size: 60px; 
+    padding: 10px 10px 10px 10px;
+	height: 130px;
+	border:5px ridge #FFFFCC;
+	
+}
+h2{
+	text-align:center;
+	font-size:1.7em;
+	letter-spacing:.1em;
+	color: #990033; 
+    font-family: papyrus, Arial, sans-serif;
+}
+h3{
+	padding:0;
+	text-align:center;
+}
+nav{
+	font-weight:bold;
+	float:left;
+	width:180px;
+	font-size:1.3em;
+}
+
+nav ul{
+	list-style-type:none;
+	padding:20px;
+	margin:0;
+
+}
+nav li{	
+	text-align:center;
+}
+nav a{
+	border-bottom:3px solid #000000;
+	display:block;
+	text-decoration:none;
+	padding:5px;
+	
+}
+nav a:link{
+	color:#000000;
+}
+nav a:visited{
+	color:#990033;
+}
+nav a:hover{
+	color:#666666;
+}
+
+
+.content { 
+	padding: 20px 20px 30px 20px; 
+    background-color: #ffffff;
+    color: #000000;
+	margin-left:180px;
+	overflow:auto;
+	line-height:30px;
+
+	
+} 
+main{
+	background-color:#FFFFFF;
+}
+
+footer {
+	margin-left:0;
+	font-size:70%;
+    text-align: center;
+	padding-bottom:10px;
+	padding-top:10px;
+	clear:both;
+}
+#imghome{
+	float:right;
+	margin:15px;
+}
+.pageimg{
+		padding:10px 10px 10px 30px;
+	}
+
+#taste{
+	float:right;
+	margin-right:100px;
+}
+li{
+	padding:10px;
+}
+dt{
+	font-weight:bold;
+	padding:5px;	
+}
+dd{
+	padding:2px;
+}
+#dltaste{
+	width:70%;
+}
+#video{
+	padding:10px;
+}
+#contactinfo{
+}
+
+label{
+	float:left;
+	display:block;
+	text-align:right;
+	width:150px;
+	padding-right:15px;
+	
+}
+textarea, input{
+	display:block;
+	margin-bottom:40px;
+}
+input[type="submit"]{
+	margin-left:200px;
+	display:inline;
+}
+input[type="reset"]{
+	display:inline;
+
+}
+#gallery{
+	text-align:left;	
+	font-size:.7em;
+	list-style-type:none;
+	line-height:20px;
+
+}
+#gallery li{
+	display:inline;
+	float:left;
+	width:300px;
+	
+}
+.imgodd{
+	text-align:left;
+	margin-left:50px;
+}
+.imgeven{
+	text-align:left;
+	margin-left:150px;
+}
+
+.maps{
+	float:right;
+	padding:20px;
+}
+td{
+	line-height:30px;
+}
+
+
+@media only screen and (max-width:64em){
+	#imghome{
+		display:none;
+	}
+	.pageimg{
+		display:none;
+	}
+	
+	nav{
+		float:left;	
+		width:140px;
+		padding-right:10px;
+	}
+	nav a{
+		border-bottom:none;
+	}
+	nav li{
+		font-size:.8em;
+		padding-bottom:10px;
+	}
+	.content{
+		margin-left:0;
+		overflow:auto;
+	}
+	h1{
+		text-indent:0;
+		text-align:center;
+		
+	}
+	#gallery{
+	text-align:left;	
+	font-size:.7em;
+	list-style-type:none;
+	float:left;
+	}
+	#gallery li{
+	display:inline;
+	float:left;
+	width:300px;
+	}
+	.imgodd{
+	text-align:left;
+		margin-left:20px;
+
+	}
+	.imgeven{
+	text-align:left;
+	margin-left:20px;
+	}
+	#taste{
+	display:none;
+	}
+	#video{
+	display:none;
+	}
+	.maps{
+	display:none;
+	}
+	
+	
+}
+@media only screen and (max-width:37.5em){
+	header{
+		background-image:none;
+		text-align:center;
+	}
+	nav{
+		float:none;
+		width:auto;
+		padding:0;
+	}
+	nav li{
+		display:inline-block;
+		margin:1%;
+		padding:2.5%;
+		box-shadow:2px 2px 2px  #000000;
+		font-size:100%;
+	}
+
+	nav ul{
+		text-align:center;
+		padding:10px;
+	}
+	.content{
+		margin:0;	
+	}
+	wrapper{
+		min-width:0;
+		width:auto;
+	}
+	h1{
+		text-align:center;
+		font-size:45px;
+		padding:10px;
+	}
+	#wrapper{
+		margin:auto;
+
+	}
+	label{
+		float:none;
+		text-align:left;
+	}
+	input[type="submit"]{
+		margin-left:0;
+	}
+	#gallery{
+	text-align:left;	
+	font-size:.7em;
+	list-style-type:none;
+	float:left;
+	margin-left:0;
+	
+}
+#gallery li{
+	float:left;
+	margin-left:0;
+	width:250px;
+	
+}
+
+#gallery img{
+	width:250px;
+}
+	.imgodd{
+	text-align:left;
+	margin-left:0;
+}
+.imgeven{
+	text-align:left;
+	margin-left:0;
+
+}
+
+	
+	
+}
+
+
+
+
+
